@@ -9,6 +9,11 @@ Notes on learning Go lang
 - Therefore, a module by definition is a collection of Go packages stored in a file tree with a go.mod file at its root.
 - Very important pointer on how to write [Go code](https://go.dev/doc/code)
 ## Testing in Go
----
 What happens when you run `go test` and what are the standards
 https://pkg.go.dev/testing
+
+## Interfaces in Go
+Defining an interface is just defining a bunch of methods with a name and return type.
+Whenever any type defines a method with the same name and the same return type , it is said to have implemented the interaface.
+
+Is there any benefit of using interfaces in Go, like runtime polymorphism, etc. ?
