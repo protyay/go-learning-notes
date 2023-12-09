@@ -5,6 +5,9 @@ Notes on learning Go lang
 #### Deferencing
 - There's value `t` of Type `T` . To get the value referenced by a pointer, we need to derefence it. The `*` is called dereference operator.
 - Arithmetic operations on pointer type is illegal in Go. You should dereference the type first and then apply the required arithmetic operations. `*p++` is modified to `(*p)++`
+- If you have defined `pkgName.Type` and `*pkgName.type`
+- what is the difference between this two declarations name := &StructType{assignments of fields} vs name := StructType{assignment of fields}
+- 
 ### Module in Go
 - Therefore, a module by definition is a collection of Go packages stored in a file tree with a go.mod file at its root.
 - Very important pointer on how to write [Go code](https://go.dev/doc/code)
