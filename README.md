@@ -24,3 +24,6 @@ Is there any benefit of using interfaces in Go, like runtime polymorphism, etc. 
 ## Reading Input in Go
 While reading input , we can use `fmt.Scanf` function to read a definite set of inputs. This has a good advantage of ignoring inputs beyong the supplied number of arguments. I would say this is
 a good API design
+
+### Go Design Principles
+Iterating an array, slice, random range , map in a similar manner is a beautiful design choice.
