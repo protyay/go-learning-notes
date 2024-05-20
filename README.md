@@ -20,3 +20,7 @@ Defining an interface is just defining a bunch of methods with a name and return
 Whenever any type defines a method with the same name and the same return type , it is said to have implemented the interaface.
 
 Is there any benefit of using interfaces in Go, like runtime polymorphism, etc. ?
+
+## Reading Input in Go
+While reading input , we can use `fmt.Scanf` function to read a definite set of inputs. This has a good advantage of ignoring inputs beyong the supplied number of arguments. I would say this is
+a good API design
